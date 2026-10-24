@@ -1,0 +1,16 @@
+{
+  "model": "torchvision/mobilenet_v3_small/imagenet1k_v1",
+  "frames_total": 32,
+  "frames_selected": 5,
+  "frames_skipped": 27,
+  "downstream_jobs_avoided_pct": 84.38,
+  "embedding_and_selection_ms": 770.4,
+  "disclaimer": "Savings estimate excludes model inference and other selection overhead.",
+  "selected_files": [
+    "frame_000.png",
+    "frame_009.png",
+    "frame_011.png",
+    "frame_020.png",
+    "frame_023.png"
+  ]
+}

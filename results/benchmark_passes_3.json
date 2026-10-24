@@ -1,0 +1,20 @@
+{
+  "workload": "OpenCV dense Farneback optical flow against first image",
+  "independent_window_sizes": [
+    9,
+    15,
+    23
+  ],
+  "median_of_runs": 3,
+  "baseline_all_frames_ms": 1798.3,
+  "downstream_selected_frames_ms": 279.0,
+  "ai_selection_ms": 770.4,
+  "combined_selected_ms": 1049.4,
+  "net_saved_pct": 41.64,
+  "break_even_downstream_ms_per_skipped_frame": 28.53,
+  "notes": [
+    "Measured on a synthetic example and this one PC, not claimed universal.",
+    "Optical flow is a downstream proxy, not the AI selector's own accuracy.",
+    "Overhead depends strongly on input size, GPU/CPU, and application."
+  ]
+}

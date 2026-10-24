@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+.pytest_cache/
+demo_frames/
+results/*
+!results/report.html
+!results/summary.json
+!results/decisions.csv
+!results/benchmark_passes_1.json
+!results/benchmark_passes_3.json
+*.log
+.env
+*.key
+*.pem
