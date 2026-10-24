@@ -18,7 +18,7 @@ For **Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady**, I built 
 
 **Code:** https://github.com/trueoneplusone/lazylens-ai
 
-**Demo:** The repository includes a self-contained [interactive-looking HTML decision report](https://raw.githubusercontent.com/trueoneplusone/lazylens-ai/main/results/report.html) you can download and open locally, plus a synthetic data generator so you can reproduce every frame.
+**Live demo:** https://trueoneplusone.github.io/lazylens-ai/ — a self-contained gallery showing every keep/skip decision. The repo includes a synthetic data generator to reproduce every frame.
 
 ![LazyLens concept and real measurements](https://raw.githubusercontent.com/trueoneplusone/lazylens-ai/main/assets/overview.png)
 
