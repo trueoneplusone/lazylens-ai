@@ -4,6 +4,8 @@ A local, open-weight **keyframe selector** for camera folders and image sequence
 
 Created during **Hacktoberfest 2026 Week 3: Slow and Steady** (October 19–25).
 
+**Live interactive gallery:** https://trueoneplusone.github.io/lazylens-ai/ (GitHub Pages; static report, no image upload).
+
 ## Why this exists
 
 Picture a fixed camera monitoring a manufacturing surface, microscope view, or static room: most frames barely change. Running expensive segmentation, tracking, inspection, or 3D analysis on each identical frame is wasted work. LazyLens compares each frame to the *last kept frame* using pretrained open-weight visual embeddings and a lightweight spatial texture signal; changes or a maximum frame gap trigger processing.
