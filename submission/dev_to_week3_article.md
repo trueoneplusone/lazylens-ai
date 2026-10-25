@@ -18,7 +18,7 @@ For **Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady**, I built 
 
 **Code:** https://github.com/trueoneplusone/lazylens-ai
 
-**Live demo:** https://trueoneplusone.github.io/lazylens-ai/ — a self-contained gallery showing every keep/skip decision. The repo includes a synthetic data generator to reproduce every frame.
+**Live demo:** https://trueoneplusone.github.io/lazylens-ai/ — a self-contained visual report showing every keep/skip decision. The repo includes a synthetic data generator to reproduce every frame.
 
 ![LazyLens concept and real measurements](https://raw.githubusercontent.com/trueoneplusone/lazylens-ai/main/assets/overview.png)
 
@@ -50,7 +50,7 @@ But there is a catch.
 
 Running AI inference on every frame has a cost. If that cost exceeds what you avoid, your clever automation made everything slower.
 
-I timed a real OpenCV Farneback dense-optical-flow workload (not fake delays) on one Windows development workstation. I used the median of three runs and included the time the model needed to choose frames:
+I timed a real OpenCV Farneback dense-optical-flow workload (not fake delays) on a Windows workstation with four NVIDIA GeForce RTX 5090 GPUs installed. MobileNetV3-small inference used CUDA device 0 (RTX 5090); Farneback optical flow ran on the CPU. I used the median of three runs and included the full image-read, model-inference and decision time needed to choose frames:
 
 | Scenario | Processing all 32 frames | AI selection + processing 5 | Net effect |
 |---|---:|---:|---:|
