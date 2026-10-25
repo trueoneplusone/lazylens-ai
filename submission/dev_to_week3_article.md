@@ -1,12 +1,13 @@
 ---
 title: "LazyLens: I Let an Open-Weight AI Skip the Frames I Didn't Need"
-published: false
+published: true
 description: "A private, local keyframe selector that saved 42% of total runtime for a heavy vision workload—and honestly lost on a lightweight one."
 tags: devchallenge, hf26challenge, ai, python
 cover_image: https://raw.githubusercontent.com/trueoneplusone/lazylens-ai/main/assets/overview.png
+published_url: https://dev.to/trueoneplusone/lazylens-i-let-an-open-weight-ai-skip-the-frames-i-didnt-need-1a81
 ---
 
-# LazyLens: why work hard on frames that have nothing new?
+# LazyLens: I Let an Open-Weight AI Skip the Frames I Didn't Need
 
 Every day, cameras quietly create a lot of nothing: a static assembly line, an unchanged microscope slide, the same view of a desktop. Then something changes.
 
