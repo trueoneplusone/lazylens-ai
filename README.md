@@ -5,6 +5,7 @@ A local, open-weight **keyframe selector** for camera folders and image sequence
 Created during **Hacktoberfest 2026 Week 3: Slow and Steady** (October 19–25).
 
 **Live visual demo:** https://trueoneplusone.github.io/lazylens-ai/ (GitHub Pages; self-contained static report, no image upload).
+**DEV Week 3 write-up:** https://dev.to/trueoneplusone/lazylens-i-let-an-open-weight-ai-skip-the-frames-i-didnt-need-1a81
 
 ## Why this exists
 
