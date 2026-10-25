@@ -43,7 +43,7 @@ def main() -> None:
         draw.rounded_rectangle((x - 2, 245, x + 265, 413),
                                radius=8, outline=(93, 194, 147), width=3)
         draw.text((x, 425), f"#{frame:03d}  {tag}", font=font(20), fill=FG)
-    draw.text((62, 513), "Actual total latency: -32% on cheap analysis  |  +42% on heavier 3-pass analysis",
+    draw.text((62, 513), "One-pass: 32% slower  |  Three-pass: 41.6% faster (total runtime)",
               font=font(21), fill=(249, 209, 148))
     draw.text((62, 552), "Synthetic demo  -  private local inference  -  honest benchmark",
               font=font(19), fill=MUTED)
