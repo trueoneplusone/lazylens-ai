@@ -4,7 +4,7 @@ A local, open-weight **keyframe selector** for camera folders and image sequence
 
 Created during **Hacktoberfest 2026 Week 3: Slow and Steady** (October 19–25).
 
-**Live interactive gallery:** https://trueoneplusone.github.io/lazylens-ai/ (GitHub Pages; static report, no image upload).
+**Live visual demo:** https://trueoneplusone.github.io/lazylens-ai/ (GitHub Pages; self-contained static report, no image upload).
 
 ## Why this exists
 
@@ -14,7 +14,7 @@ Picture a fixed camera monitoring a manufacturing surface, microscope view, or s
 
 ## Measured result — including model overhead
 
-Deterministic 32-frame synthetic sequence (two defect events), MobileNetV3-small ImageNet pretrained, 1 RTX GPU available, OpenCV Farneback downstream benchmark on the same Windows PC, median of 3 runs:
+Deterministic 32-frame synthetic sequence (two staged visual events), MobileNetV3-small ImageNet pretrained on CUDA device 0 (NVIDIA GeForce RTX 5090; four RTX 5090 GPUs installed), OpenCV Farneback downstream benchmark on CPU on the same Windows workstation, median of 3 runs:
 
 | Metric | Result |
 |---|---:|
